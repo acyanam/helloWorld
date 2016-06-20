@@ -26,21 +26,7 @@ parameters:
     type: string
     description: CentOS-6-x86_64-20150911
     default: 'e3586645-c7ff-4deb-b79f-f2db308cb1bd'
-  java7_enabled:
-    type: string
-    description: Select enable java7 or not
-    default: true
-    constraints:
-        - allowed_values: [true,false]
-  boolean_type:
-    type: boolean
-    description: " boolean type"
-  number_type:
-     type: string
-     description: " number type "
-     default: 6
-     constraints:
-         - allowed_values: [6,8,2]
+ 
 
 resources:
 ## REFERENCE {"patterns-service-dev-net":{"type": "OS::Neutron::Net", "properties": {"network_id": "fbd19302-f247-4816-b53e-a664f3dc72c1", "external":"false", "subnets": [{"id":"46fcd6d7-017e-437b-9921-d7fb9f76a7f2","name":"patterns-service-dev-subnet","cidr":"192.168.15.0\/24"}] }}}
