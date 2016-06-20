@@ -27,7 +27,7 @@ parameters:
     description: CentOS-6-x86_64-20150911
     default: 'e3586645-c7ff-4deb-b79f-f2db308cb1bd'
   java7_enabled:
-    type: string
+    type: boolean
     description: Select enable java7 or not
     default: true
     constraints:
